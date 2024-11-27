@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Popup</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <h3 id="icalStatus"></h3>
+    
+    <table class="center">
+        <tr>
+            <td>
+                <button id="downloadBtn" class="ical-btn-padding">
+                    <img src='../icons/ical.svg' class="ical-icon-padding" alt="iCal-icon" width="20px" height="auto"/>
+                    <span><strong class="buttonText">Download iCal</strong></span>
+                </button>
+            </td>
+        </tr>
+    </table>
+    <script src="popup.js"></script>
+    <hr/>
+    <div class="container">        
+        <input type="image" class="container" id="linkedin" src="../icons/linkedin.svg" alt="LinkedIn" width="20px" height="auto"/>
+        <input type="image" class="container" id="github" src="../icons/github.svg" alt="GitHub Sponsor" width="20px" height="auto"/>
+        <input type="image" class="container" id="code" src="../icons/code.svg" alt="GitHub Project" width="20px" height="auto"/>
+    </div>
+</body>
+</html>

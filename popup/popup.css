@@ -1,0 +1,45 @@
+body {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.ical-status-red {
+    color: red;
+    font-weight: 900;
+}
+.ical-status-green {
+    color: green;
+    font-weight: 900;
+}
+div ul {
+    list-style-type: none;
+}
+div ul li {
+    display: inline-block;
+}
+div ul li a {
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.25rem 0 0.5rem 0;
+}
+.center {
+    margin: auto;
+}
+.padding-top {
+    padding-top: 0.5rem;
+}
+.ical-btn-padding {
+    padding: 1rem;
+    border-radius: 12px;
+}
+.ical-icon-padding {
+    padding-right: 0.5rem;
+    vertical-align: middle;
+}
+.buttonText {
+    font-size: 1rem;
+}
