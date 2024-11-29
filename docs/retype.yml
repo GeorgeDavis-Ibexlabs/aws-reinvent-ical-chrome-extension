@@ -65,3 +65,4 @@ data:
   projectUrl: https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension
   term:
     AWS: Amazon Web Services
+    iCal: iCalendar file format
