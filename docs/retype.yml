@@ -51,6 +51,11 @@ cache:
 footer:
   copyright: "Copyleft {{ year }}. All rights reversed."
 
+# Integrations
+integrations:
+  googleAnalytics:
+    id: G-CRV23KX1GS  
+
 # Generator Settings
 generator:
   directoryIndex:
