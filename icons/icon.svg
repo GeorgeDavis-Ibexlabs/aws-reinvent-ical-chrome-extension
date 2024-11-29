@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg baseProfile="full" height="128px" version="1.1" width="128px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <defs>
-    <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0.11%" stop-color="#db05e7" />
-      <stop offset="45.01%" stop-color="#3545d9" />
-      <stop offset="99.89%" stop-color="#0e8bd9" />
-    </linearGradient>
-  </defs>
-  
-  <!-- background -->
-  <rect x="0" y="0" width="300" height="100" fill="url(#gradient)" />
+
+  <defs/>
   
   <!-- Text with border -->
   <text fill="#ff9900" font-family="Arial" font-size="108px" font-weight="bold" x="0" y="70" stroke="black" stroke-width="1px">re:</text>
