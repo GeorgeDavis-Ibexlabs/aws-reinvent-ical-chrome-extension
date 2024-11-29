@@ -15,11 +15,11 @@ This is the [open source GitHub project:icon-link-external:]({{ projectUrl }}){t
 
 ## Import iCal events into your calendar with this Chrome extension
 
-1. Install the [AWS re:Invent iCal Chrome extension]()
+1. Install the [AWS re:Invent iCal Chrome extension]().
 
-2. Login to [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/reg/login){target="blank" aria-label="This link takes you to the AWS re:Invent login page."} and navigate to [My agenda :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."}
+2. Login to [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/reg/login){target="blank" aria-label="This link takes you to the AWS re:Invent login page."} and navigate to [My agenda :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."}.
 
-3. Click on the extension icon and click on `Download iCal`
+3. Click on the extension icon and click on `Download iCal`.
 
 4. Browse to the `Downloads` directory and import the iCal file into your calendar of preference.
 
@@ -49,9 +49,9 @@ With enough support for the Chrome extension, we could host generated iCal files
 | `Microsoft Edge` | :construction: |
 | `Mozilla Firefox` | :construction: |
 
-## Issues?
+## Issues
 
-For any issues or errors with this script, please raise an [issue here]({{ projectUrl }}/issues)
+For any issues or errors with this script, please raise an [issue here]({{ projectUrl }}/issues).
 
 ## Contribute
 
