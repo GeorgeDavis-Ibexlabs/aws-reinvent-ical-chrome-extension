@@ -19,48 +19,48 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v4.2.2
 
-      - name: Get all docs files that have changed
-        id: changed-files
-        uses: tj-actions/changed-files@v45.0.4
-        with:
-          files: |
-            - '**.md'
-            - docs/**
+      # - name: Get all docs files that have changed
+      #   id: changed-files
+      #   uses: tj-actions/changed-files@v45.0.4
+      #   with:
+      #     files: |
+      #       - '**.md'
+      #       - docs/**
 
       - name: Spellcheck
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         uses: rojopolis/spellcheck-github-actions@0.45.0
         with:
           config_path: .github/spellcheck/.spellcheck.yml
         
       - name: Upload Spellcheck Artifact
-        if: ${{ (steps.changed-files.outputs.any_changed == 'true') && (!cancelled()) }} # Do not upload artifact if job was cancelled
+        # if: ${{ (steps.changed-files.outputs.any_changed == 'true') && (!cancelled()) }} # Do not upload artifact if job was cancelled
         uses: actions/upload-artifact@v4.4.3
         with:
           name: Spellcheck Output
           path: spellcheck-output.txt
 
       - name: Setup .NET Core SDK
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         uses: actions/setup-dotnet@v4.1.0
         with:
           dotnet-version: 7.0.x  
 
       - name: Build Retype
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         uses: retypeapp/action-build@latest
         with:
           config: docs/retype.yml
         id: build
 
       - shell: bash
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         env:
           RETYPE_PATH: ${{ steps.build.outputs.retype-output-path }}
         run: echo "Retype output is available at '${RETYPE_PATH}'."
 
       - name: Push build output to retype branch
-        if: steps.changed-files.outputs.any_changed == 'true'
+        # if: steps.changed-files.outputs.any_changed == 'true'
         uses: retypeapp/action-github-pages@latest
         with:
           directory: docs
