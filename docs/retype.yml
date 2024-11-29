@@ -2,8 +2,7 @@ input: .
 output: .retype
 
 # Site Settings
-# TODO: Update final URL
-url: ibexlabs.github.io/wafr-ftr-onboarding/
+url: georgedavis-ibexlabs.github.io/aws-reinvent-ical-chrome-extension/
 favicon: static/icon.svg
 locale: en
 meta:
