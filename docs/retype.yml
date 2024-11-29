@@ -1,0 +1,67 @@
+input: .
+output: .retype
+
+# Site Settings
+# TODO: Update final URL
+url: ibexlabs.github.io/wafr-ftr-onboarding/
+favicon: static/icon.svg
+locale: en
+meta:
+  title: " | George Davis"
+branding:
+  title: AWS re:Invent iCal Chrome Extension
+  logo: static/icon.svg
+  colors:
+    label:
+      text: "#FF9900"
+      background: "#252F3E"
+
+# Navbar Settings
+links:
+  - text: Issues
+    link: https://https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension/issues
+    icon: link-external
+    iconAlign: right
+    target: blank
+  - text: GitHub
+    link: https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension
+    icon: link-external
+    iconAlign: right
+    target: blank
+
+# GitHub Information
+edit:
+  repo: "https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension/edit/"
+  branch: dev
+  label: "Edit on GitHub"
+  base: /docs/
+
+# Code-style Editor Settings
+snippets:
+  lineNumbers:
+    - js
+    - json
+    - yaml
+    - yml
+
+# Website Caching
+cache:
+  strategy: query
+
+# Footer Settings
+footer:
+  copyright: "Copyleft {{ year }}. All rights reversed."
+
+# Generator Settings
+generator:
+  directoryIndex:
+    append: true
+
+templating:
+  enabled: true
+  liquid: false
+
+data:
+  projectUrl: https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension
+  term:
+    AWS: Amazon Web Services

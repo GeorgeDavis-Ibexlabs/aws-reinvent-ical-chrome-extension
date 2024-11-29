@@ -1,0 +1,10 @@
+# Adsbot (AdsBot crawlers must be named explicitly)
+User-agent: AdsBot-Google
+Disallow:
+
+# All other crawlers
+User-agent: *
+Disallow:
+
+# TODO: Update sitemap URL
+# Sitemap: https://ibexlabs.github.io/wafr-ftr-onboarding/sitemap.xml.gz
