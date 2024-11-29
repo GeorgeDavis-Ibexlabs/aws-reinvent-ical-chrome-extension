@@ -67,6 +67,8 @@ templating:
 
 data:
   projectUrl: https://github.com/GeorgeDavis-Ibexlabs/aws-reinvent-ical-chrome-extension
+  eventCode: reinvent24
+  orgId: awsevents
   term:
     AWS: Amazon Web Services
     iCal: iCalendar file format

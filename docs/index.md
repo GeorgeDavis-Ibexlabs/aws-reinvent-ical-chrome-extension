@@ -7,9 +7,9 @@ visibility: public
 
 # AWS re:Invent iCal Chrome extension
 
-Stuck with all your AWS sessions on the [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/awsevents/reinvent24/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."} and not on your *Google Calendar* / *Outlook Calendar* / *Apple Calendar* ?.
+Stuck with all your AWS sessions on the [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."} and not on your *Google Calendar* / *Outlook Calendar* / *Apple Calendar*?
 
-This is the [open source GitHub project :icon-link-external:]({{ projectUrl }}){target="blank" aria-label="This link takes you to the GitHub project page."} page for the AWS re:Invent iCal Chrome extension. The Chrome extension for generating iCal from the AWS re:Invent My agenda page.
+This is the [open source GitHub project:icon-link-external:]({{ projectUrl }}){target="blank" aria-label="This link takes you to the GitHub project page."} page for the AWS re:Invent iCal Chrome extension. The Chrome extension for generating iCal from the AWS re:Invent My agenda page.
 
 ![](/static/images/aws-reinvent-ical-chrome-extension.jpg)
 
@@ -17,7 +17,7 @@ This is the [open source GitHub project :icon-link-external:]({{ projectUrl }}){
 
 1. Install the [AWS re:Invent iCal Chrome extension]()
 
-2. Login to [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/awsevents/reinvent24/reg/login){target="blank" aria-label="This link takes you to the AWS re:Invent login page."} and navigate to [My agenda :icon-link-external:](https://registration.awsevents.com/flow/awsevents/reinvent24/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."}
+2. Login to [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/reg/login){target="blank" aria-label="This link takes you to the AWS re:Invent login page."} and navigate to [My agenda :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."}
 
 3. Click on the extension icon and click on `Download iCal`
 
