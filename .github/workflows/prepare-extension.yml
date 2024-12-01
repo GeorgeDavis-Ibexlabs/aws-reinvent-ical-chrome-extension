@@ -58,7 +58,7 @@ jobs:
       GIT_BASE_BRANCH_NAME: ${{ needs.init.outputs.base_ref_branch }}
     #   GIT_BASE_SHA: ${{ needs.init.outputs.base_sha }}
       ZIP_NAME: aws-reinvent-ical-chrome-extension.zip
-      EXTN_VERSION: ${{ github.run_id }}.${{ github.run_number }}.${{ github.run_attempt }}
+      EXTN_VERSION: ${{ github.run_number }}.${{ github.run_attempt }}
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
