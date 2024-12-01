@@ -99,7 +99,7 @@ jobs:
       - name: Package Chrome extension
         # if: steps.changed-lambda-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
-          zip -r ${{ env.ZIP_NAME }} . -x .git\*/\* -x .DS_Store -x .gitignore -x LICENSE -x README.md
+          zip -r ${{ env.ZIP_NAME }} . -x .git\*/\* -x docs/\* -x .DS_Store -x .gitignore -x LICENSE -x README.md
 
       - name: Upload Lambda Package Zip
         # if: steps.changed-lambda-files.outputs.any_changed == 'true' || github.event_name == 'workflow_dispatch'
