@@ -15,7 +15,7 @@ This is the [open source GitHub project:icon-link-external:]({{ projectUrl }}){t
 
 ## Import iCal events into your calendar with this Chrome extension
 
-1. Install the [AWS re:Invent iCal Chrome extension]().
+1. Install the [AWS re:Invent iCal Chrome extension:icon-link-external:](https://chromewebstore.google.com/detail/aws-reinvent-ical-chrome/lpiephijpohcafhjefjkllokgdcpepce?authuser=0&hl=en&pli=1){target="blank" aria-label="This link takes you to the Google Chrome extension page."}.
 
 2. Login to [AWS Events app :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/reg/login){target="blank" aria-label="This link takes you to the AWS re:Invent login page."} and navigate to [My agenda :icon-link-external:](https://registration.awsevents.com/flow/{{ orgid }}/{{ eventCode }}/myagenda/page/myagenda){target="blank" aria-label="This link takes you to the AWS re:Invent My Agenda page."}.
 

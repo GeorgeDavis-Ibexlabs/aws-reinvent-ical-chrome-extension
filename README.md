@@ -7,7 +7,7 @@ Stuck with all your AWS sessions on the [AWS Events app](https://registration.aw
 
 ## Import iCal events into your calendar
 
-- Install the [AWS re:Invent iCal Chrome extension]()
+- Install the [AWS re:Invent iCal Chrome extension](https://chromewebstore.google.com/detail/aws-reinvent-ical-chrome/lpiephijpohcafhjefjkllokgdcpepce?authuser=0&hl=en&pli=1)
 
 - Login to [AWS Events app](https://registration.awsevents.com/flow/awsevents/reinvent24/reg/login) and navigate to [My agenda](https://registration.awsevents.com/flow/awsevents/reinvent24/myagenda/page/myagenda)
 
