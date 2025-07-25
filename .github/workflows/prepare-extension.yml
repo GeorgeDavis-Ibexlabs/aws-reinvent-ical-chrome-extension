@@ -37,7 +37,7 @@ jobs:
     steps:
       - name: Get base branch name
         id: base_branch_name
-        uses: tj-actions/branch-names@v8.0.1
+        uses: tj-actions/branch-names@v9.0.0
 
     #   - name: Nx Set SHAs
     #     uses: nrwl/nx-set-shas@v4.1.1
